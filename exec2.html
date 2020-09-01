@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+    <style>
+        body{
+            background-color: rgb(200, 172, 206);
+        }
+        #btn{
+            margin-left: 550px;
+            margin-top: 100px;
+            padding: 30px;
+            background-color: rgb(99, 48, 99);
+            color: #fff;
+            border: 1px solid rgb(99, 48, 99);
+            cursor: pointer;
+            outline: none;
+            border-radius: 5px;
+            text-transform: uppercase;
+        }
+        h2{
+            margin-left: 500px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+        }
+        #pergunta{
+            margin-left: 500px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 17px;
+            margin-top: 40px;
+        }
+        #resp1, #resp2, #resp3{
+            margin: 20px 0 20px 500px;
+            padding: 10px;
+            background-color: rgb(142, 114, 175);
+            border: 1px solid rgb(142, 114, 175) ;
+            outline: none;
+            box-shadow: 0 0 2px 2px;
+            cursor: pointer;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="ClickQuiz">
+        <input type="button" id="btn" value="Click no Quiz" onclick="Start()">
+    </div>
+    <div id="quiz"></div>
+    <div id="final"></div>
+    <script src="exec2.js"></script>
+</body>
+</html>
